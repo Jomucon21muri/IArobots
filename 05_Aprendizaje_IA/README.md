@@ -1,4 +1,4 @@
-# 🧠 Aprendizaje automático y IA - robot humanoide
+# Aprendizaje automático y IA - robot humanoide
 
 ## Propósito
 
@@ -587,11 +587,11 @@ Recolectar datos propios del robot en operación.
 
 ## Referencias
 
-- 📖 "Deep Learning" - Goodfellow, Bengio, Courville
-- 📖 "Reinforcement Learning: An Introduction" - Sutton & Barto
-- 🎓 Coursera: Deep Learning Specialization
-- 🎓 Fast.ai: Practical Deep Learning
-- 🌐 Papers With Code: State-of-the-art en AI
+- "Deep Learning" - Goodfellow, Bengio, Courville
+- "Reinforcement Learning: An Introduction" - Sutton & Barto
+- Coursera: Deep Learning Specialization
+- Fast.ai: Practical Deep Learning
+- Papers With Code: State-of-the-art en AI
 
 ---
 

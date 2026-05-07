@@ -724,9 +724,9 @@ class ReconocedorRostros:
         
         if len(encodings) > 0:
             self.rostros_conocidos[nombre] = encodings[0]
-            print(f"✓ Registrado: {nombre}")
+            print(f"Registrado: {nombre}")
         else:
-            print(f"✗ No se detectó rostro en {imagen_path}")
+            print(f"No se detectó rostro en {imagen_path}")
     
     def reconocer_desde_camara(self):
         """Detecta y reconoce rostros en tiempo real desde cámara"""

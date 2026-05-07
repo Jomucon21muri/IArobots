@@ -1013,7 +1013,7 @@ def verificar_colisiones_self(robot_id):
     contact_points = p.getContactPoints(robot_id, robot_id)
     
     if len(contact_points) > 0:
-        print("⚠️ COLISIÓN DETECTADA:")
+        print("COLISIÓN DETECTADA:")
         for cp in contact_points:
             link_a = cp[3]
             link_b = cp[4]

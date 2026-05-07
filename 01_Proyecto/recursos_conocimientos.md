@@ -386,14 +386,14 @@ class BehaviorController:
 - Code review
 
 ### Referencias y recursos
-- 📖 "Programming Robots with ROS" - Quigley, Gerkey, Smart
-- 📖 "Modern Robotics" - Lynch & Park
-- 🎓 ROS Tutorials: wiki.ros.org
-- 🌐 GitHub: Awesome Robotics
+- "Programming Robots with ROS" - Quigley, Gerkey, Smart
+- "Modern Robotics" - Lynch & Park
+- ROS Tutorials: wiki.ros.org
+- GitHub: Awesome Robotics
 
 ---
 
-## 4. 🤖 Mecatrónica
+## 4. Mecatrónica
 
 **Carpeta principal**: [`08_Integracion_Hardware/`](../08_Integracion_Hardware/)
 
@@ -479,12 +479,12 @@ class BehaviorController:
 - Routing de cables sin tensión excesiva
 
 ### Referencias y recursos
-- 📖 "Mechatronics: Electronic Control Systems in Mechanical Engineering" - Bolton
-- 📖 "Introduction to Mechatronic Design" - Carryer, Ohline, Kenny
+- "Mechatronics: Electronic Control Systems in Mechanical Engineering" - Bolton
+- "Introduction to Mechatronic Design" - Carryer, Ohline, Kenny
 
 ---
 
-## 5. 💾 Diseño de software
+## 5. Diseño de software
 
 **Carpeta principal**: [`09_Comunicaciones_Interfaces/`](../09_Comunicaciones_Interfaces/)
 
@@ -691,13 +691,13 @@ def calculate_inverse_kinematics(target_pos, target_orient, robot_model):
 ```
 
 ### Referencias y recursos
-- 📖 "Clean Code" - Robert C. Martin
-- 📖 "Design Patterns" - Gang of Four
-- 🎓 Real Python, PyQt documentation
+- "Clean Code" - Robert C. Martin
+- "Design Patterns" - Gang of Four
+- Real Python, PyQt documentation
 
 ---
 
-## 6. 🧠 Inteligencia artificial y aprendizaje automático
+## 6. Inteligencia artificial y aprendizaje automático
 
 **Carpetas principales**: 
 - [`05_Aprendizaje_Maquina/`](../05_Aprendizaje_Maquina/)
@@ -945,16 +945,16 @@ optimizer = optim.Adam(resnet.fc.parameters(), lr=0.001)
 ```
 
 ### Referencias y recursos
-- 📖 "Deep Learning" - Goodfellow, Bengio, Courville
-- 📖 "Hands-On Machine Learning" - Aurélien Géron
-- 📖 "Reinforcement Learning: An Introduction" - Sutton & Barto
-- 🎓 Coursera: Deep Learning Specialization (Andrew Ng)
-- 🎓 Fast.ai courses
-- 🌐 Papers With Code
+- "Deep Learning" - Goodfellow, Bengio, Courville
+- "Hands-On Machine Learning" - Aurélien Géron
+- "Reinforcement Learning: An Introduction" - Sutton & Barto
+- Coursera: Deep Learning Specialization (Andrew Ng)
+- Fast.ai courses
+- Papers With Code
 
 ---
 
-## 7. 🏭 Materiales y fabricación
+## 7. Materiales y fabricación
 
 **Carpeta principal**: [`08_Integracion_Hardware/`](../08_Integracion_Hardware/)
 
@@ -981,28 +981,28 @@ optimizer = optim.Adam(resnet.fc.parameters(), lr=0.001)
 **Termoplásticos** (re-moldeables):
 
 **PLA** (Poliácido Láctico):
-- ✅ Fácil impresión, biodegradable
-- ❌ Frágil, baja temperatura
+- Pros: Fácil impresión, biodegradable
+- Contras: Frágil, baja temperatura
 - Uso: Prototipos, carcasas no estructurales
 
 **ABS** (Acrilonitrilo Butadieno Estireno):
-- ✅ Resistente, flexible, mecanizable
-- ❌ Requiere cama caliente, vapores
+- Pros: Resistente, flexible, mecanizable
+- Contras: Requiere cama caliente, vapores
 - Uso: Carcasas, partes funcionales
 
 **PETG** (Tereftalato de Polietileno Glicol):
-- ✅ Fuerte, flexible, resistente químicamente
-- ❌ Puede ser pegajoso
+- Pros: Fuerte, flexible, resistente químicamente
+- Contras: Puede ser pegajoso
 - Uso: Partes funcionales, protección
 
 **Nylon** (Poliamida):
-- ✅ Muy resistente, duradero, flexible
-- ❌ Absorbe humedad, difícil impresión
+- Pros: Muy resistente, duradero, flexible
+- Contras: Absorbe humedad, difícil impresión
 - Uso: Engranajes, partes móviles
 
 **TPU** (Poliuretano Termoplástico):
-- ✅ Flexible, elástico, resistente abrasión
-- ❌ Lenta impresión
+- Pros: Flexible, elástico, resistente abrasión
+- Contras: Lenta impresión
 - Uso: Juntas, amortiguadores
 
 **Termofijos** (no re-moldeables):
@@ -1014,36 +1014,36 @@ optimizer = optim.Adam(resnet.fc.parameters(), lr=0.001)
 
 **Aluminio**:
 - **Aleación 6061-T6**: Uso general
-- ✅ Ligero (2.7 g/cm³), resistente corrosión
-- ❌ Menor resistencia que acero
+- Pros: Ligero (2.7 g/cm³), resistente corrosión
+- Contras: Menor resistencia que acero
 - Uso: Estructura, chasis, soportes
 
 **Acero**:
 - **Acero al carbono**: Económico, fuerte
 - **Acero inoxidable 304**: Resistente corrosión
-- ✅ Muy resistente
-- ❌ Pesado (7.85 g/cm³)
+- Pros: Muy resistente
+- Contras: Pesado (7.85 g/cm³)
 - Uso: Ejes, pernos, partes críticas
 
 **Titanio**:
-- ✅ Alta resistencia-peso, resistente corrosión
-- ❌ Costoso, difícil mecanizar
+- Pros: Alta resistencia-peso, resistente corrosión
+- Contras: Costoso, difícil mecanizar
 - Uso: Aplicaciones avanzadas
 
 **Latón/Bronce**:
-- ✅ Buena maquinabilidad, baja fricción
+- Pros: Buena maquinabilidad, baja fricción
 - Uso: Bujes, conectores
 
 #### 7.4 Materiales compuestos
 
 **Fibra de Carbono**:
-- ✅ Excelente relación resistencia-peso
-- ❌ Costoso, frágil a impactos
+- Pros: Excelente relación resistencia-peso
+- Contras: Costoso, frágil a impactos
 - Uso: Estructura ligera y rígida
 
 **Fibra de Vidrio**:
-- ✅ Resistente, económico
-- ❌ Más pesado que fibra carbono
+- Pros: Resistente, económico
+- Contras: Más pesado que fibra carbono
 - Uso: Carcasas, paneles
 
 #### 7.5 Técnicas de fabricación
@@ -1126,13 +1126,13 @@ M30         ; Fin programa
 **Soldadura**: Unir metales
 
 ### Referencias y recursos
-- 📖 "Manufacturing Processes for Engineering Materials" - Kalpakjian
-- 🌐 Simplify3D Print Quality Troubleshooting Guide
-- 🌐 MatWeb: Base de datos de materiales
+- "Manufacturing Processes for Engineering Materials" - Kalpakjian
+- Simplify3D Print Quality Troubleshooting Guide
+- MatWeb: Base de datos de materiales
 
 ---
 
-## 8. 🔋 Baterías y energía
+## 8. Baterías y energía
 
 **Carpeta principal**: [`08_Integracion_Hardware/`](../08_Integracion_Hardware/)
 
@@ -1142,8 +1142,8 @@ M30         ; Fin programa
 
 **Litio-Polímero (LiPo)**:
 - Voltaje nominal: 3.7V por celda
-- ✅ Alta densidad energética, ligera, descarga alta
-- ❌ Requiere cuidado, riesgo incendio
+- Pros: Alta densidad energética, ligera, descarga alta
+- Contras: Requiere cuidado, riesgo incendio
 - Configuración: 2S, 3S, 4S (S = series)
 - Capacidad: 1000-10000+ mAh
 - C-rating: Tasa de descarga (20C = 20× capacidad)
@@ -1152,14 +1152,14 @@ M30         ; Fin programa
 **Litio-Ion (Li-Ion)**:
 - Celdas comunes: 18650, 21700
 - Voltaje nominal: 3.6-3.7V
-- ✅ Más seguro que LiPo, alta capacidad
-- ❌ Menor tasa de descarga
+- Pros: Más seguro que LiPo, alta capacidad
+- Contras: Menor tasa de descarga
 - Uso: Portátiles, vehículos eléctricos
 
 **Níquel-Metal Hidruro (NiMH)**:
 - Voltaje nominal: 1.2V por celda
-- ✅ Seguro, económico
-- ❌ Menor densidad energética, auto-descarga
+- Pros: Seguro, económico
+- Contras: Menor densidad energética, auto-descarga
 - Uso: Juguetes, dispositivos legacy
 
 #### 8.2 Especificaciones clave
@@ -1245,8 +1245,8 @@ while True:
 
 **Reguladores Lineales**:
 - LM7805 (5V), LM7812 (12V), LM317 (ajustable)
-- ✅ Simple, ruido bajo
-- ❌ Ineficiente (disipa calor)
+- Pros: Simple, ruido bajo
+- Contras: Ineficiente (disipa calor)
 - Uso: Bajo consumo, voltajes fijos
 
 **Reguladores Switching**:
@@ -1306,10 +1306,10 @@ Batería (11.1V LiPo 3S)
 - Inspección: No hinchar, dañar
 
 **Seguridad**:
-- ⚠️ Nunca sobre-descargar (<3.0V)
-- ⚠️ Nunca sobre-cargar (>4.2V)
-- ⚠️ Nunca perforar
-- ⚠️ Desechar si está hinchada o dañada
+- ADVERTENCIA: Nunca sobre-descargar (<3.0V)
+- ADVERTENCIA: Nunca sobre-cargar (>4.2V)
+- ADVERTENCIA: Nunca perforar
+- ADVERTENCIA: Desechar si está hinchada o dañada
 
 #### 8.9 Alternativas de energía
 
@@ -1326,13 +1326,13 @@ Batería (11.1V LiPo 3S)
 - Uso: Aplicaciones especializadas
 
 ### Referencias y recursos
-- 📖 "Battery Management Systems" - Gregory Plett
-- 🌐 Battery University
-- 🌐 Oscar Liang: LiPo Battery Guide
+- "Battery Management Systems" - Gregory Plett
+- Battery University
+- Oscar Liang: LiPo Battery Guide
 
 ---
 
-## 9. 🏃 Diseño ergonómico y biomecánica
+## 9. Diseño ergonómico y biomecánica
 
 **Carpeta principal**: [`04_Control/`](../04_Control/)
 
@@ -1559,14 +1559,14 @@ class ImpedanceController:
 - Balance entre realismo y abstracción
 
 ### Referencias y recursos
-- 📖 "Humanoid Robots: Modeling and Control" - Vukobratović, Borovac
-- 📖 "Biped Locomotion" - Kajita et al.
-- 🎓 Papers: ZMP-based walking, Preview control
-- 🌐 Open Humanoid Project
+- "Humanoid Robots: Modeling and Control" - Vukobratović, Borovac
+- "Biped Locomotion" - Kajita et al.
+- Papers: ZMP-based walking, Preview control
+- Open Humanoid Project
 
 ---
 
-## 10. 📡 Comunicación y Redes
+## 10. Comunicación y Redes
 
 **Carpeta principal**: [`09_Comunicaciones_Interfaces/`](../09_Comunicaciones_Interfaces/)
 
@@ -1879,13 +1879,13 @@ def measure_latency(url, iterations=10):
 - Buffering inteligente
 
 ### Referencias y recursos
-- 📖 "Computer Networks" - Tanenbaum
-- 🌐 ROS Communication Patterns
-- 🌐 MQTT official documentation
+- "Computer Networks" - Tanenbaum
+- ROS Communication Patterns
+- MQTT official documentation
 
 ---
 
-## 11. 🛡️ Seguridad y ética
+## 11. Seguridad y ética
 
 **Carpeta principal**: [`12_Etica_Seguridad/`](../12_Etica_Seguridad/)
 
@@ -2189,15 +2189,15 @@ class EmergencyHandler:
 ```
 
 ### Referencias y recursos
-- 📖 "Robot Ethics" - Lin, Abney, Bekey
-- 📖 "AI Ethics" - Coeckelbergh
-- 🌐 ISO standards (ISO.org)
-- 🌐 EU AI Act
-- 🌐 IEEE Ethically Aligned Design
+- "Robot Ethics" - Lin, Abney, Bekey
+- "AI Ethics" - Coeckelbergh
+- ISO standards (ISO.org)
+- EU AI Act
+- IEEE Ethically Aligned Design
 
 ---
 
-## 12. 📊 Gestión de Proyectos
+## 12. Gestión de Proyectos
 
 **Carpeta principal**: [`00_Gestion_Proyecto/`](../00_Gestion_Proyecto/)
 
@@ -2370,13 +2370,13 @@ Usar ROS (Robot Operating System) versión Noetic.
 ```
 
 ### Referencias y recursos
-- 📖 "The Lean Startup" - Eric Ries
-- 📖 "Scrum: The Art of Doing Twice the Work in Half the Time" - Jeff Sutherland
-- 🌐 PM BoK (Project Management Body of Knowledge)
+- "The Lean Startup" - Eric Ries
+- "Scrum: The Art of Doing Twice the Work in Half the Time" - Jeff Sutherland
+- PM BoK (Project Management Body of Knowledge)
 
 ---
 
-## 📌 Resumen por carpeta del proyecto
+## Resumen por carpeta del proyecto
 
 | Carpeta | Conocimientos Principales |
 |---------|---------------------------|
@@ -2396,7 +2396,7 @@ Usar ROS (Robot Operating System) versión Noetic.
 
 ---
 
-## 🎓 Recomendaciones de aprendizaje
+## Recomendaciones de aprendizaje
 
 ### Ruta de aprendizaje
 

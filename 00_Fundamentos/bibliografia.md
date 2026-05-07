@@ -1,8 +1,8 @@
-# 📖 Bibliografía y referencias
+# Bibliografía y referencias
 
 Esta sección contiene referencias académicas, papers, libros y recursos utilizados en el proyecto.
 
-## 📚 Libros fundamentales
+## Libros fundamentales
 
 ### Robótica general
 - Siciliano, B., Khatib, O. (2016). *Springer Handbook of Robotics*. Springer.
@@ -15,16 +15,16 @@ Esta sección contiene referencias académicas, papers, libros y recursos utiliz
 ### Control y dinámica
 - Spong, M. W., Hutchinson, S., Vidyasagar, M. (2005). *Robot Modeling and Control*. Wiley.
 
-## 📄 Papers relevantes
+## Papers relevantes
 
 Ver también: [09_Datasets_Experimentos/papers/](../09_Datasets_Experimentos/papers/)
 
-## 🌐 Recursos online
+## Recursos online
 
 - ROS Documentation: https://docs.ros.org
 - PyTorch Tutorials: https://pytorch.org/tutorials
 - OpenCV Documentation: https://docs.opencv.org
 
-## 📝 Notas
+## Notas
 
 Esta bibliografía se irá ampliando conforme avance el proyecto.

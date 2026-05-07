@@ -1,4 +1,4 @@
-# 🎯🎮 Planificación y control - cerebro motor del robot
+# Planificación y control - cerebro motor del robot
 
 ## Propósito
 
@@ -6,7 +6,7 @@ Este módulo implementa el **sistema de planificación y control** del robot hum
 
 ---
 
-## 🌐 Visión general
+## Visión general
 
 La planificación y el control trabajan en conjunto en una arquitectura jerárquica:
 
@@ -28,13 +28,13 @@ Actuadores (motores, servos)
 
 ---
 
-## 📂 Estructura del directorio
+## Estructura del directorio
 
 ```
 04_Planificacion_Control/
 ├── README.md (este archivo)
 │
-├── planificacion/                  # 🎯 Algoritmos de planificación
+├── planificacion/                  # Algoritmos de planificación
 │   ├── global/                    # Planificación global (A*, D*, RRT*)
 │   │   ├── a_star/               # Algoritmo A*
 │   │   ├── d_star/               # D* y D* Lite
@@ -59,7 +59,7 @@ Actuadores (motores, servos)
 │       ├── state_machines/       # Máquinas de estados
 │       └── hierarchical/         # Planificación jerárquica
 │
-├── control/                        # 🎮 Sistemas de control
+├── control/                        # Sistemas de control
 │   ├── low_level/                # Control de bajo nivel
 │   │   ├── pid/                  # Controladores PID
 │   │   ├── pwm/                  # Control PWM para motores
@@ -105,7 +105,7 @@ Actuadores (motores, servos)
 
 ---
 
-## 🎯 Planificación
+## Planificación
 
 ### 1. Planificación global
 
@@ -161,7 +161,7 @@ Evita obstáculos dinámicos y ajusta la ruta en tiempo real.
 
 ---
 
-## 🎮 Control
+## Control
 
 ### 1. Control PID (bajo nivel)
 
@@ -232,7 +232,7 @@ def mpc_controller(x0, A, B, Q, R, N=10):
 
 ---
 
-## 🔗 Integración con otros módulos
+## Integración con otros módulos
 
 - **[02_Percepcion_Vision](../02_Percepcion_Vision/)**: Recibe datos sensoriales para detectar obstáculos
 - **[03_Localizacion_Mapeo](../03_Localizacion_Mapeo/)**: Usa mapas para planificación global
@@ -241,7 +241,7 @@ def mpc_controller(x0, A, B, Q, R, N=10):
 
 ---
 
-## 📚 Recursos y herramientas
+## Recursos y herramientas
 
 ### Librerías principales
 ```python
@@ -261,7 +261,7 @@ import pinocchio              # Dinámica de robots
 
 ---
 
-## 🎯 Próximos pasos
+## Próximos pasos
 
 1. Implementar A* para navegación básica
 2. Desarrollar controladores PID para articulaciones

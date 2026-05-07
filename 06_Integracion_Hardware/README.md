@@ -1,4 +1,4 @@
-# 🔧 Integración de hardware - robot humanoide
+# Integración de hardware - robot humanoide
 
 ## Propósito
 
@@ -185,7 +185,7 @@ Este módulo integra los siguientes pilares de conocimiento (ver [recursos_conoc
 
 ## Checklist de seguridad pre-prueba
 
-**⚠️ OBLIGATORIO antes de cada sesión de pruebas**:
+**ADVERTENCIA: OBLIGATORIO antes de cada sesión de pruebas**:
 
 - [ ] **Batería**: Verificar voltaje, conexiones seguras
 - [ ] **E-stop**: Botón de parada de emergencia accesible y funcional
@@ -213,11 +213,11 @@ Este módulo integra los siguientes pilares de conocimiento (ver [recursos_conoc
 
 ---
 
-## ⚡ Sistema de energía (metabolismo artificial)
+## Sistema de energía (metabolismo artificial)
 
 El sistema de energía del robot humanoide simula el metabolismo biológico, gestionando la obtención, almacenamiento, distribución y optimización de energía para todas sus funciones.
 
-### 1. ⚡ Generación y almacenamiento de energía
+### 1. Generación y almacenamiento de energía
 
 #### Qué se simula
 - Cómo el robot obtiene y gestiona su energía (equivalente a la alimentación en humanos)
@@ -351,7 +351,7 @@ class BatteryPlugin:
 
 ---
 
-### 2. 🔋 Regulación energética (homeostasis)
+### 2. Regulación energética (homeostasis)
 
 #### Qué se simula
 - Balance energético dinámico según las tareas realizadas
@@ -419,7 +419,7 @@ class PowerManager:
     
     def emergency_actions(self):
         """Acciones en modo emergencia"""
-        print("⚠️ MODO EMERGENCIA ACTIVADO")
+        print("ADVERTENCIA: MODO EMERGENCIA ACTIVADO")
         # 1. Desactivar cámara
         # 2. Reducir frecuencia de sensores
         # 3. Desactivar WiFi (solo emergencia local)
@@ -439,7 +439,7 @@ class TaskScheduler:
             self.task_queue.append(task)
             return True
         else:
-            print(f"❌ Tarea {task.name} pospuesta por falta de energía")
+            print(f"ERROR: Tarea {task.name} pospuesta por falta de energía")
             return False
 ```
 
@@ -484,7 +484,7 @@ def train_energy_predictor(model, historical_data):
 
 ---
 
-### 3. ♻️ Recuperación y eficiencia (metabolismo avanzado)
+### 3. Recuperación y eficiencia (metabolismo avanzado)
 
 #### Qué se simula
 - Capacidad de recuperar energía o usar fuentes alternativas
@@ -664,7 +664,7 @@ class EnergyDashboard:
         total_energy = avg_consumption * total_time  # Wh
         
         report = f"""
-        📊 REPORTE ENERGÉTICO
+        REPORTE ENERGÉTICO
         ═══════════════════════════════
         Tiempo de operación: {total_time:.2f} horas
         Consumo promedio: {avg_consumption:.2f} W

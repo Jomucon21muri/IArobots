@@ -69,7 +69,7 @@ Este repositorio documenta el desarrollo completo de un **robot humanoide desde 
 ---
 
 <div align="center">
-  <p><strong>🤖 Construyendo el futuro de la robótica, un paso a la vez 🤖</strong></p>
+  <p><strong>Construyendo el futuro de la robótica, un paso a la vez</strong></p>
   <p><em>"La construcción de un robot humanoide es un proceso complejo que requiere una combinación de habilidades mecánicas, electrónicas y de programación. El resultado final puede ser un robot capaz de realizar tareas impresionantes y mejorar la vida de las personas."</em></p>
 </div>
 

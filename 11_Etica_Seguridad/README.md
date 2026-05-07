@@ -1,4 +1,4 @@
-# 🛡️ Ética, seguridad y buenas prácticas - robot humanoide
+# Ética, seguridad y buenas prácticas - robot humanoide
 
 ## Propósito
 
@@ -45,7 +45,7 @@ Este módulo implementa el pilar 11: **Seguridad y Ética** (ver [recursos_conoc
     └── training_materials.md   # Material de capacitación
 ```
 
-## ⚠️ Principios de seguridad fundamentales
+## ADVERTENCIA: Principios de seguridad fundamentales
 
 ### Reglas de oro
 
@@ -61,9 +61,9 @@ Este módulo implementa el pilar 11: **Seguridad y Ética** (ver [recursos_conoc
 2. Un robot debe obedecer las órdenes dadas por los seres humanos, excepto si estas órdenes entrasen en conflicto con la Primera Ley
 3. Un robot debe proteger su propia existencia en la medida en que esta protección no entre en conflicto con la Primera o la Segunda Ley
 
-## 🚨 Checklist de seguridad pre-prueba
+## EMERGENCIA: Checklist de seguridad pre-prueba
 
-**⚠️ OBLIGATORIO antes de CADA sesión de pruebas**
+**ADVERTENCIA: OBLIGATORIO antes de CADA sesión de pruebas**
 
 ### Hardware
 - [ ] **Batería**
@@ -137,7 +137,7 @@ Este módulo implementa el pilar 11: **Seguridad y Ética** (ver [recursos_conoc
   - [ ] Un sistema a la vez
   - [ ] Incrementar complejidad gradualmente
 
-## 📋 Procedimientos de emergencia
+## Procedimientos de emergencia
 
 ### Parada de emergencia
 
@@ -150,7 +150,7 @@ Este módulo implementa el pilar 11: **Seguridad y Ética** (ver [recursos_conoc
 
 ### Incendio de batería LiPo
 
-**⚠️ LiPo en llamas no pueden extinguirse con agua**
+**ADVERTENCIA: LiPo en llamas no pueden extinguirse con agua**
 
 1. **Activar E-stop**
 2. **Evacuar área inmediata**
@@ -185,7 +185,7 @@ Este módulo implementa el pilar 11: **Seguridad y Ética** (ver [recursos_conoc
 4. Análisis de causa raíz
 5. Implementar mitigaciones antes de continuar
 
-## 🔒 Seguridad en software
+## Seguridad en software
 
 ### Límites de seguridad
 
@@ -329,7 +329,7 @@ else:
     logger.warning(f"Comando rechazado: {message}")
 ```
 
-## 🤝 Ética en IA y robótica
+## Ética en IA y robótica
 
 ### Principios éticos del proyecto
 
@@ -424,7 +424,7 @@ def evaluate_model_fairness(model, test_data, sensitive_attributes=['age', 'gend
     return results
 ```
 
-## 📊 Análisis de riesgos (FMEA)
+## Análisis de riesgos (FMEA)
 
 ### Ejemplo: Failure Mode and Effects Analysis
 
@@ -439,7 +439,7 @@ def evaluate_model_fairness(model, test_data, sensitive_attributes=['age', 'gend
 **RPN = Severidad × Probabilidad × Detección**
 Priorizar si RPN > 100
 
-## 📝 Reporte de incidentes
+## Reporte de incidentes
 
 ### Template
 
@@ -482,7 +482,7 @@ Priorizar si RPN > 100
 - [ ] Actualizar documentación
 ```
 
-## 📚 Normativas y estándares
+## Normativas y estándares
 
 ### ISO/TS 15066: robots colaborativos
 - Límites de fuerza y presión en contacto humano-robot
@@ -503,7 +503,7 @@ Priorizar si RPN > 100
 - Aislamiento
 - Materiales retardantes de llama
 
-## 🎓 Capacitación obligatoria
+## Capacitación obligatoria
 
 **Antes de operar el robot, cada persona debe**:
 1. Leer este documento completo
@@ -522,15 +522,15 @@ Priorizar si RPN > 100
 
 ## Referencias
 
-- 📖 "Robot Ethics" - Lin, Abney, Bekey
-- 📖 "AI Ethics" - Coeckelbergh
-- 🌐 ISO Standards: www.iso.org
-- 🌐 EU AI Act
-- 🌐 IEEE Ethically Aligned Design
-- 🌐 Battery University (seguridad LiPo)
+- "Robot Ethics" - Lin, Abney, Bekey
+- "AI Ethics" - Coeckelbergh
+- ISO Standards: www.iso.org
+- EU AI Act
+- IEEE Ethically Aligned Design
+- Battery University (seguridad LiPo)
 
 ---
 
-**⚠️ RECORDATORIO**: La seguridad NO es opcional. Si hay dudas sobre la seguridad de una operación, DETENER y consultar.
+**ADVERTENCIA: RECORDATORIO**: La seguridad NO es opcional. Si hay dudas sobre la seguridad de una operación, DETENER y consultar.
 
 **Última actualización**: Febrero 2026

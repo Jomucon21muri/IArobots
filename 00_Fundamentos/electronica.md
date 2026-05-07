@@ -945,7 +945,7 @@ print(f"Capacitor: {specs['capacitor_uF']:.1f} µF (usar 100µF electrolítico +
 
 | Tipo | Voltaje nominal | Densidad energía (Wh/kg) | C-rate típico | Ciclos | Seguridad | Costo |
 |------|----------------|--------------------------|---------------|--------|-----------|-------|
-| **Li-Po** | 3.7V/celda | 150-200 | 20-30C | 300-500 | ⚠️ Peligro | $$ |
+| **Li-Po** | 3.7V/celda | 150-200 | 20-30C | 300-500 | Peligro | $$ |
 | **Li-Ion 18650** | 3.7V/celda | 150-250 | 1-3C | 500-1000 | Moderado | $$ |
 | **LiFePO4** | 3.2V/celda | 90-120 | 3-5C | 2000-5000 | Alta | $$$ |
 | **NiMH** | 1.2V/celda | 60-80 | 1-2C | 500-1000 | Alta | $ |
@@ -1069,9 +1069,9 @@ print(f"Tiempo restante: {bms.estimate_remaining_time(1200):.1f} min")
 
 health = bms.check_health()
 if not health['healthy']:
-    print("⚠️ CRÍTICO:", health['critical'])
+    print("CRÍTICO:", health['critical'])
 if health['warnings']:
-    print("⚠️ Advertencias:", health['warnings'])
+    print("Advertencias:", health['warnings'])
 ```
 
 ### 3.3 Distribución de energía

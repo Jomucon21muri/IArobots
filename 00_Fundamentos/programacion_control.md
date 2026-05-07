@@ -680,11 +680,11 @@ class EventBus:
 
 # Ejemplo de uso
 async def on_obstacle_detected(data):
-    print(f"⚠️ Obstáculo detectado a {data['distance']:.2f}m - Deteniendo")
+    print(f"Obstáculo detectado a {data['distance']:.2f}m - Deteniendo")
     # Aquí iría código para detener motores
 
 async def on_battery_low(data):
-    print(f"🔋 Batería baja: {data['percentage']}% - Regresando a base")
+    print(f"Batería baja: {data['percentage']}% - Regresando a base")
     # Aquí iría código para navegación a estación de carga
 
 bus = EventBus()
@@ -1414,7 +1414,7 @@ class MaquinaEstadosRobot:
             self._on_enter_state(nuevo_estado)
             return True
         else:
-            print(f"⚠️ Transición inválida: {self.estado_actual.name} → {nuevo_estado.name}")
+            print(f"Transición inválida: {self.estado_actual.name} → {nuevo_estado.name}")
             return False
     
     def _on_enter_state(self, estado):
@@ -1424,7 +1424,7 @@ class MaquinaEstadosRobot:
         elif estado == EstadoRobot.CAMINANDO:
             print("  → Iniciando locomoción")
         elif estado == EstadoRobot.EMERGENCIA:
-            print("  → 🚨 STOP! Deteniendo todos los actuadores")
+            print("  → STOP! Deteniendo todos los actuadores")
 
 # Ejemplo
 fsm = MaquinaEstadosRobot()
