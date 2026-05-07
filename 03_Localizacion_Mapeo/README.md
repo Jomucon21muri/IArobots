@@ -13,7 +13,6 @@ Trasladar esta capacidad a un robot de servicio es el siguiente gran reto tras r
 
 Este módulo aborda el problema de la localización y el mapeo como extensión directa del sistema de visión, añadiendo una capa de comprensión espacial que habilita la autonomía real del robot.
 
----
 
 ### 2. Planteamiento del problema
 
@@ -27,7 +26,6 @@ La pregunta de investigación central de este módulo es:
 
 > ¿Cómo implementar un sistema integrado de localización, mapeo y planificación de trayectorias que permita a un robot de servicio orientarse y moverse de forma autónoma y eficiente en entornos reales, tanto en representaciones 2D como 3D?
 
----
 
 ### 3. Objetivos de investigación
 
@@ -46,13 +44,11 @@ Diseñar e implementar un sistema de localización y mapeo simultáneo (SLAM) in
 
 5. Implementar y validar un sistema SLAM completo que genere un mapa del entorno y lo actualice de forma continua durante el desplazamiento del robot.
 
----
 
 ### 4. Hipótesis de trabajo
 
 Un sistema SLAM que combine sensores de profundidad (LiDAR o cámara RGB-D) con algoritmos de optimización de trayectorias basados en descenso de gradiente permite al robot de servicio construir una representación fiel del entorno y seleccionar en cada momento la acción de desplazamiento óptima, logrando una navegación autónoma eficiente incluso en entornos dinámicos.
 
----
 
 ### 5. Marco conceptual
 
@@ -130,7 +126,6 @@ La arquitectura resultante combina:
 - **Capa de planificación:** algoritmo de trayectorias → secuencia de acciones óptimas.
 - **Capa de decisión:** modelo de RL → selección de la acción concreta a ejecutar.
 
----
 
 ### 6. Metodología de investigación
 
@@ -142,7 +137,6 @@ La arquitectura resultante combina:
 | **Fase 4 — Integración con planificador** | Conexión del mapa generado con el planificador de trayectorias (Nav2 en ROS2). Validación de rutas óptimas en distintos escenarios. |
 | **Fase 5 — Validación en hardware real** | Pruebas del sistema completo en el robot físico. Evaluación de la precisión del mapa, error de localización y eficiencia de las trayectorias. |
 
----
 
 ### 7. Variables de estudio
 
@@ -150,7 +144,6 @@ La arquitectura resultante combina:
 - **Variable dependiente:** precisión del mapa generado, error de localización acumulado y calidad de las trayectorias planificadas.
 - **Variable de control:** entorno físico fijo, velocidad de desplazamiento constante y condiciones de iluminación estables.
 
----
 
 ## PARTE II 
 
@@ -158,7 +151,6 @@ La arquitectura resultante combina:
 
 La localización y el mapeo constituyen una disciplina técnica con fundamentos matemáticos sólidos (probabilidad, álgebra lineal, optimización) y herramientas de software específicas. La formación en este módulo requiere partir de los conceptos teóricos de los algoritmos SLAM y avanzar hasta su implementación práctica en ROS2, conectando con las competencias ya desarrolladas en el módulo de visión artificial.
 
----
 
 ### 2. Competencias a desarrollar
 
@@ -191,7 +183,7 @@ La localización y el mapeo constituyen una disciplina técnica con fundamentos 
 - Conexión del sistema SLAM con el módulo de aprendizaje por refuerzo (Módulo 1).
 - Ajuste de parámetros y puesta a punto del sistema completo en hardware real.
 
----
+
 
 ### 3. Itinerario formativo
 
@@ -203,7 +195,6 @@ La localización y el mapeo constituyen una disciplina técnica con fundamentos 
 | **Módulo 4** — Planificación de trayectorias | A\*, RRT\*, DWA, Nav2 | Documentación Nav2 (navigation.ros.org), curso ROS2 Navigation (The Construct) |
 | **Módulo 5** — Integración completa | Pipeline SLAM + Nav2 + RL en hardware real | Proyectos de referencia en ROS2 con Nav2 y robots reales |
 
----
 
 ### 4. Indicadores de logro
 
@@ -215,7 +206,6 @@ Al finalizar el plan de formación, se habrán alcanzado los siguientes hitos:
 4. Integración funcional del sistema SLAM con Nav2 en ROS2, operativo en hardware embebido.
 5. Documentación del sistema: diagrama de arquitectura, parámetros de configuración y análisis de resultados.
 
----
 
 ### 5. Relación entre formación e investigación
 
@@ -227,7 +217,6 @@ Al finalizar el plan de formación, se habrán alcanzado los siguientes hitos:
 | Integrar localización con toma de decisiones | Bloque E — Integración y toma de decisiones |
 | Implementar y validar sistema SLAM completo | Bloque B + D + E con itinerario Módulos 2, 4 y 5 |
 
----
 
 ### 6. Conexión con el módulo anterior (Visión Artificial)
 

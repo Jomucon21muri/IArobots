@@ -120,7 +120,7 @@ El reto de investigación consiste en implementar un mecanismo de **atención se
 - **Variable dependiente:** precisión de detección, latencia de procesamiento y eficacia del módulo de atención selectiva.
 - **Variable de control:** entorno físico estandarizado, iluminación constante y distancia inicial al objetivo definida.
 
----
+
 
 ## PARTE II 
 
@@ -128,7 +128,7 @@ El reto de investigación consiste en implementar un mecanismo de **atención se
 
 Para llevar a cabo esta investigación con rigor técnico es necesario desarrollar competencias específicas que, partiendo de los fundamentos de la visión artificial, lleguen hasta la integración en hardware robótico real. El plan contempla una formación progresiva y aplicada, directamente vinculada a los objetivos del plan de investigación.
 
----
+
 
 ### 2. Competencias a desarrollar
 
@@ -156,7 +156,7 @@ Para llevar a cabo esta investigación con rigor técnico es necesario desarroll
 - Optimización de modelos para inferencia eficiente: **TensorRT**, ONNX.
 - Integración del pipeline completo: cámara → modelo → decisión → actuación.
 
----
+
 
 ### 3. Itinerario formativo
 
@@ -167,7 +167,7 @@ Para llevar a cabo esta investigación con rigor técnico es necesario desarroll
 | **Módulo 3** — Aprendizaje por refuerzo | RL aplicado a navegación, simuladores | Gymnasium (OpenAI), Stable Baselines3, NVIDIA Isaac Gym |
 | **Módulo 4** — Robótica integrada | ROS2, hardware embebido, optimización | ROS2 Humble docs, NVIDIA Jetson tutorials, TensorRT guide |
 
----
+
 
 ### 4. Indicadores de logro
 
@@ -178,7 +178,6 @@ Al finalizar el plan de formación, se habrán alcanzado los siguientes hitos:
 3. Integración del pipeline completo (cámara + modelo + ROS2) en hardware embebido con funcionamiento estable.
 4. Documentación técnica del sistema desarrollado, incluyendo descripción del pipeline, resultados y conclusiones.
 
----
 
 ### 5. Relación entre formación e investigación
 
@@ -190,7 +189,6 @@ Al finalizar el plan de formación, se habrán alcanzado los siguientes hitos:
 | Diseñar pipeline de integración | Bloque D — Sistemas robóticos |
 | Validar en hardware real | Bloque D — Hardware embebido y optimización |
 
----
 
 *Documento generado en formato PIyPFP · Robótica Inteligente e Inteligencia Artificial*
 
