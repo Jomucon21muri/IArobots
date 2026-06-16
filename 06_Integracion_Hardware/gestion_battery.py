@@ -1,6 +1,6 @@
-# Software de gestión
-# Battery Management System (BMS) personalizado
-
+''' Software de gestión
+Battery Management System (BMS) personalizado
+'''
 import time
 
 class BatteryManagementSystem:

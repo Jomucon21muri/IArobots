@@ -1,5 +1,6 @@
-#### Energía solar (opcional avanzado)
-
+'''
+En este módulo se simula un panel solar como fuente de energía auxiliar para el sistema.
+'''
 class SolarPanel:
     """Simula panel solar como fuente de energía auxiliar"""
     def __init__(self, area_m2=0.1, efficiency=0.15):

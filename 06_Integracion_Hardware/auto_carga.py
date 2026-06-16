@@ -1,5 +1,6 @@
-# Dock de carga autónomo
-
+''' 
+Dock de carga autónomo
+'''
 class ChargingDockController:
     """Controla la búsqueda y acoplamiento a estación de carga"""
     def __init__(self):

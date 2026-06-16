@@ -4,8 +4,7 @@
 ---
 
 **Área temática:** Robótica Inteligente  
-**Módulo:** 5 — Integración de Hardware, Mecatrónica y Sistemas de Energía  
-**Conecta con:** Módulo 1 — Visión · Módulo 2 — SLAM · Módulo 3 — Planificación y Control · Módulo 4 — IA y ML  
+**Módulo:** 5 — Integración de Hardware y sistemas de energía  
 
 ---
 
@@ -26,10 +25,10 @@ Este módulo investiga cómo diseñar e integrar los cinco pilares del hardware 
 Un robot humanoide funcional requiere resolver simultáneamente problemas de naturaleza muy distinta que deben estar perfectamente coordinados:
 
 1. **¿Cómo estructurar el cuerpo del robot?** → Diseño mecánico con el número correcto de grados de libertad, materiales adecuados y articulaciones que soporten las cargas previstas.
-2. **¿Cómo dotar al robot de percepción y actuación?** → Selección e integración de sensores, actuadores y el cerebro computacional que los coordina.
-3. **¿Cómo fabricar las piezas necesarias?** → Combinación de impresión 3D, mecanizado y componentes comerciales para obtener un robot funcional con los medios disponibles.
-4. **¿Cómo gestionar la energía de forma eficiente?** → Sistema de alimentación que garantice la autonomía necesaria distribuyendo la energía de forma segura a todos los subsistemas.
-5. **¿Cómo garantizar la seguridad durante el desarrollo y uso?** → Protocolos y mecanismos de seguridad que protejan tanto al robot como a las personas en su entorno.
+2. **¿Cómo dotar al robot de percepción y actuación?** → Selección e integración de sensores, actuadores y el "cerebro computacional" que será el procesador que los coordina.
+3. **¿Cómo fabricar las piezas necesarias?** → Combinación de impresión 3D en modelo de prueba, mecanizado y componentes comerciales para obtener un robot funcional con los medios disponibles.
+4. **¿Cómo gestionar la energía de forma eficiente?** → Sistema de alimentación que garantice la autonomía necesaria distribuyendo la energía de forma segura a todos los subsistemas. En este punto cabe recalcar que la energia dependera del tipo de actuadores y sensores que tenga, por lo cual se ajuta en función de los elementos a controlar.
+5. **¿Cómo garantizar la seguridad durante el desarrollo y uso?** → Protocolos y mecanismos de seguridad que protejan tanto al robot como a las personas en su entorno. En seguridad debemos tambien plantear el modelo de conección a red, lo que marcaria la importancia de los modelos de simulación para su posterio prueba y mejora en un entorno con resultados empiricos.
 
 La pregunta de investigación central de este módulo es:
 

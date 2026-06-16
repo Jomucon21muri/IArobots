@@ -1,5 +1,7 @@
-# Simulación de consumo en Gazebo
-# Plugin de Gazebo para simular descarga de batería
+''' 
+Simulación de consumo en Gazebo
+Plugin de Gazebo para simular descarga de batería
+'''
 class BatteryPlugin:
     def __init__(self):
         self.initial_charge = 100.0  # %

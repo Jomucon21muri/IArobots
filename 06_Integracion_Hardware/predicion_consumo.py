@@ -1,5 +1,6 @@
-# Predicción de consumo con IA
-
+'''
+ Predicción de consumo con IA
+'''
 import torch
 import torch.nn as nn
 

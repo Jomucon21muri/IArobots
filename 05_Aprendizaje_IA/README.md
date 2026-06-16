@@ -939,4 +939,4 @@ Recolectar datos propios del robot en operación.
 
 ---
 
-**Última actualización**: Febrero 2026
+**Última actualización**: junio 2026

@@ -1,6 +1,6 @@
-# Frenado regenerativo (para robots con movilidad con ruedas)
-
-
+'''
+ Frenado regenerativo (para robots con movilidad con ruedas)
+'''
 class RegenerativeBraking:
     """Recupera energía durante desaceleración"""
     def __init__(self, motor_controller):

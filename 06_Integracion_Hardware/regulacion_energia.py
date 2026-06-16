@@ -1,12 +1,13 @@
-# Regulación energética (homeostasis)
-# Qué se simula
-# Balance energético dinámico según las tareas realizadas
-# Asignación inteligente de recursos
-# Modos de ahorro de energía
+'''
+ Regulación energética (homeostasis)
+ Qué se simula
+ Balance energético dinámico según las tareas realizadas
+ Asignación inteligente de recursos
+ Modos de ahorro de energía
 
-# Estrategias de optimización
-# Modos de operación:
-
+ Estrategias de optimización
+ Modos de operación:
+'''
 from enum import Enum
 
 class PowerMode(Enum):
