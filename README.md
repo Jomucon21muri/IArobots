@@ -6,6 +6,9 @@ La IA aplicada a robots no solo permite que ejecuten tareas programadas, sino qu
 
 Este trabajo constituye la base fundamental para **Plan de Investigación y Plan de Formación Personal (PIyPFP) centradas en la integración de la Inteligencia Artificial en robots de servicio**. El objetivo es avanzar en el desarrollo de sistemas robóticos autónomos capaces de operar eficientemente en entornos humanos, mejorando la interacción, adaptabilidad y rendimiento de los robots de servicio en aplicaciones del mundo real.
 
+<img width="1024" height="1013" alt="image" src="https://github.com/user-attachments/assets/630ff9c6-13da-4638-957e-ec299af81ab6" />
+
+
 ## Sobre este proyecto
 
 ### Complejidad de la robótica humanoide
